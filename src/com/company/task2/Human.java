@@ -7,7 +7,6 @@ public class Human {
     private double weight;
 
 
-
     public Human(String name, int age, double height, double weight){
         this.name = name;
         this.age = age;
