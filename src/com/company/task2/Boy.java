@@ -10,4 +10,5 @@ public class Boy extends Human{
     public void say() {
         super.say();
     }
+
 }
