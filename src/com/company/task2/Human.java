@@ -16,6 +16,7 @@ public class Human {
     }
 
     public void say(){
-        System.out.println("My name is " + name + ", my age is " + age + "y, my height is " + height + "m, my weight is " + weight + "kg.");
+        System.out.println("My name is " + name + ", my age is " +
+                age + "y, my height is " + height + "m, my weight is " + weight + "kg.");
     }
 }
