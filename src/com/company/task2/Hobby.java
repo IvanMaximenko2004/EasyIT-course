@@ -4,8 +4,6 @@ public class Hobby {
     private String name;
     private int years;
     private String description;
-
-
     public Hobby(String name, int years, String description){
         this.name = name;
         this.years = years;

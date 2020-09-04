@@ -6,10 +6,8 @@ public class Human {
     private double height;
     private double weight;
 
-
-
     public Human(String name, int age, double height, double weight){
-        this.name = this.name;
+        this.name = name;
         this.age = age;
         this.height = height;
         this.weight = weight;
