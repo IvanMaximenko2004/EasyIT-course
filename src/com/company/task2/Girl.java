@@ -9,7 +9,7 @@ public class Girl extends Human{
         this.hobby = hobby;
     }
 
-    public Hobby gethobby() {
+    public Hobby getHobby() {
         return hobby;
     }
 }
