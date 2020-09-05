@@ -8,12 +8,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Hobby hobby = new Hobby("football", 2, "The game, where players kick the ball");
-        Hobby hobbyFriend = new Hobby("Volleyball", 5, "Interesting game");
-        Girl girl = new Girl("Nastya", 19, 1.79, 60.6, hobby);
-        Friend friend = new Friend("Dima", 19, 184, 80, hobbyFriend, girl);
-        friend.say();
-        friend.getHobby().info();
-        friend.getGirlName().tell();
+        Friend friend = new Friend("Dima", 17, 1.84, 80, new Hobby("Volleyball", 5, "Intr game"));
+        Girl girl = new Girl("Nastya", 19, 1.79, 60.6, new Hobby("Football", 2, "The game, where players kick the ball"), friend);
+        Boy boy = new Boy("Sergei", 18, 1.80, 78.3, new Hobby("Tennis", 3, "Enjoy playing tennis"), friend);
+        girl.getFriend().tell();
     }
 }
