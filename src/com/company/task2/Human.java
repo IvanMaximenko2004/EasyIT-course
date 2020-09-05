@@ -1,5 +1,7 @@
 package com.company.task2;
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
 public class Human {
     private String name;
     private int age;
@@ -11,6 +13,11 @@ public class Human {
         this.age = age;
         this.height = height;
         this.weight = weight;
+    }
+
+    public void tell(){
+        System.out.print("I'm " + name + "'s friend.");
+        System.out.println(" She is " + age + " y.o.");
     }
 
     public void say(){

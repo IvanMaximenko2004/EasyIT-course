@@ -10,7 +10,7 @@ public class Hobby {
         this.description = description;
     }
 
-    public void info (){
-        System.out.println("Hobby: " + name + "years: " + "description: " + description);
-    }
+    public void info(){
+        System.out.println("My hobby is " + name + ". I practice it for " + years + " years. Description: " + description);
+     }
 }
