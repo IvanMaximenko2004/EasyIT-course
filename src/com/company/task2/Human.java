@@ -6,7 +6,6 @@ public class Human {
     private double height;
     private double weight;
 
-
     public Human(String name, int age, double height, double weight){
         this.name = name;
         this.age = age;
@@ -15,6 +14,11 @@ public class Human {
     }
 
     public void say(){
-        System.out.println("My name is " + name + ", my age is " + age + "y, my height is " + height + "m, my weight is " + weight + "kg.");
+        System.out.println("My name is " + name + ", my age is " +
+                age + "y, my height is " + height + "m, my weight is " + weight + "kg.");
+    }
+
+    public void tell(){
+        System.out.println("I have a friend " + name + ". He is " + age + " y.o.");
     }
 }
